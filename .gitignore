@@ -1,0 +1,45 @@
+# Virtual environment
+tfenv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dataset
+archive/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large ML/model files
+*.h5
+*.keras
+
+# Temporary files
+*.tmp
+*.log
+
+# Include the final trained V2 model
+!retinopathy_output_v2/final_retinopathy_model.keras
+
+# Unnecessary duplicate/generated files
+retinopathy_output_v2/best_model.keras
+retinopathy_output_v2/resolved_dataset.csv
+
+# Old/duplicate project folder
+sih38/
+
+# Old model output
+retinopathy_output/
+
+# Unrelated files
+writing-block (2).md
