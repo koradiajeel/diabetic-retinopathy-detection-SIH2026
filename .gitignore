@@ -30,6 +30,8 @@ archive/
 
 # Include the final trained V2 model
 !retinopathy_output_v2/final_retinopathy_model.keras
+!backend/model/final_retinopathy_model.keras
+
 
 # Unnecessary duplicate/generated files
 retinopathy_output_v2/best_model.keras
